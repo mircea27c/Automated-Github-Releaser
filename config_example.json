@@ -1,0 +1,33 @@
+{
+  "details": {
+    "release_name": "release 1.0.1",
+    "release_tag": "v1.0.1",
+    "release_description": "this is a test for 1.0.1",
+    "prerelease": false,
+    "draft": true,
+    "auth_token": "secret_token_xxxxxxxxxxxxxxxxxx",
+    "repo_dir_path": "path/to/repo/dir"
+  },
+    "run_commands": {
+      "commands":[
+        "mkdir NewContainer"
+      ]
+  },
+  "move_files": [
+    {
+    "from": "source",
+    "to": "destination"
+    }
+  ],
+  "delete_files": [
+    "trash1.txt",
+    "trash2.txt"
+  ],
+  "git_commands": {
+    "commands": [
+      "add .",
+      "commit -m 'automatic commit'",
+      "push"
+    ]
+  }
+}
